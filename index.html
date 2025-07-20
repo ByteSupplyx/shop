@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ByteSupply - Loja Gamer e Informática</title>
+    <meta name="description" content="ByteSupply - Sua loja especializada em produtos para gamers, setup tech, mousepad RGB e acessórios de informática" />
+    <meta name="keywords" content="loja gamer, mousepad RGB, setup tech, produtos informática, acessórios gamer, mouse gamer, teclado mecânico, headset gamer, periféricos gaming" />
+    <meta name="author" content="ByteSupply" />
+    <meta property="og:title" content="ByteSupply - Loja Gamer e Informática" />
+    <meta property="og:description" content="Sua loja especializada em produtos para gamers, setup tech, mousepad RGB e acessórios de informática" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        /* Reset e básico */
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #121212;
+            color: #eee;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Navbar */
+        .navbar {
+            background: #181818;
+            padding: 12px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.7);
+        }
+        .nav-logo {
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 900;
+            font-size: 1.5rem;
+            color: #00f260;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .nav-logo i {
+            color: #00f260;
+        }
+        .theme-btn {
+            background: none;
+            border: none;
+            color: #ccc;
+            font-size: 1.25rem;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .theme-btn:hover {
+            color: #00f260;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 48px 20px 40px;
+            background: linear-gradient(135deg, #00f260 0%, #0575e6 100%);
+            color: #121212;
+            user-select: none;
+        }
+        .hero h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 900;
+            font-size: 3.5rem;
+            margin-bottom: 8px;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        .hero-stats .stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #121212;
+        }
+        .hero-stats .stat i {
+            font-size: 2rem;
+            margin-bottom: 6px;
+        }
+
+        /* Products Section */
+        .products-section {
+            max-width: 1200px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+        }
+        .section-title {
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #00f260;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section-title i {
+            font-size: 2.2rem;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 24px;
+        }
+
+        /* Product Card */
+        .product-card {
+            background: linear-gradient(145deg, #1f1f1f, #2c2c2c);
+            border: 1px solid #333;
+            border-radius: 14px;
+            box-shadow: 0 4px 10px rgba(0,255,96,0.3);
+            padding: 16px;
+            text-align: center;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,255,96,0.6);
+        }
+        .product-card img {
+            width: 100%;
+            max-height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            flex-shrink: 0;
+        }
+        .product-card h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #00f260;
+            margin: 0 0 8px 0;
+            flex-shrink: 0;
+        }
+        .product-card p {
+            font-size: 0.85rem;
+            color: #ccc;
+            height: 2.4em; /* Limita 2 linhas */
+            line-height: 1.2em;
+            overflow: hidden;
+            margin: 0 0 12px 0;
+            flex-grow: 1;
+        }
+        .product-card .price {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #0f0;
+            margin-bottom: 12px;
+            flex-shrink: 0;
+        }
+        .product-card a {
+            padding: 8px 16px;
+            background: #00f260;
+            color: #121212;
+            font-weight: 700;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+            flex-shrink: 0;
+        }
+        .product-card a:hover {
+            background: #00c249;
+        }
+
+        /* Mensagem loja em reforma (quando sem produtos) */
+        #products-grid:empty::before {
+            content: "🚧 Loja em reforma. Em breve adicionaremos novos produtos.";
+            color: #888;
+            text-align: center;
+            display: block;
+            font-size: 1.2rem;
+            padding: 80px 20px;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Footer */
+        .footer {
+            background: #181818;
+            padding: 24px 20px;
+            color: #888;
+            font-size: 0.9rem;
+            user-select: none;
+        }
+        .footer .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+            color: #00f260;
+            font-size: 1.2rem;
+        }
+        .footer-brand i {
+            color: #00f260;
+        }
+        .footer-brand p {
+            margin-left: 12px;
+            font-weight: 400;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+        .footer-social h4 {
+            margin: 0 0 6px;
+            font-weight: 600;
+            color: #00f260;
+        }
+        .footer-social .social-links a {
+            color: #888;
+            margin-right: 12px;
+            font-size: 1.4rem;
+            transition: color 0.3s;
+        }
+        .footer-social .social-links a:hover {
+            color: #00f260;
+        }
+        .footer-bottom {
+            width: 100%;
+            text-align: center;
+            margin-top: 16px;
+            color: #555;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-bolt"></i>
+                <span>ByteSupply</span>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" title="Alternar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>ByteSupply</h1>
+            <p>Sua loja especializada em produtos para gamers e informática</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Gaming</span>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-desktop"></i>
+                    <span>Setup</span>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-keyboard"></i>
+                    <span>Periféricos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-shopping-bag"></i>
+                Nossos Produtos
+            </h2>
+            <div id="products-grid" class="products-grid"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-brand">
+                <i class="fas fa-bolt"></i>
+                <span>ByteSupply</span>
+                <p>Sua loja especializada em produtos para gamers e informática</p>
+            </div>
+            <div class="footer-social">
+    <h4>Siga-nos</h4>
+    <div class="social-links">
+        <a href="https://www.instagram.com/bytesupplyx/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/558199743009?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20um%20dos%20produtos%20da%20ByteSupply." target="_blank" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        
+    </div>
+</div>
+
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 ByteSupply. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script>
+      // Produto estático, pode adicionar mais produtos no array para expandir
+      const products = [
+        {
+          id: 1,
+          name: "Kit Gamer Teclado, Mouse RGB, MousePad LED e Headset",
+          description: "Monte seu setup gamer com teclado semi-mecânico iluminado, mouse RGB de 7 botões, mousepad grande (com ou sem LED) e headset com áudio 360° e iluminação. Conforto, performance e estilo para jogos.",
+          price: 62.99,
+          image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m84xf76mh33l7c.webp",
+          link: "https://s.shopee.com.br/4Ap7OdLlxd"
+        }, 
+        {
+  id: 2,
+  name: "Kit Mobilador Gamer Celular Android Completo",
+  description: "Transforme seu celular em um setup gamer com teclado one hand, mouse LED, mousepad, tripé, hub USB e adaptador OTG. Compatível com Android.",
+  price: 49.99,
+  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma5teyk27hc1ae@resize_w900_nl.webp",
+  link: "https://s.shopee.com.br/gFFTiPhTt"
+},
+
+        {
+  id: 3,
+  name: "Controle PS4 Joystick Sem Fio DualShock 4",
+  description: "Controle sem fio intuitivo, preciso e confortável para PS4.",
+  price: 79.00,
+  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m6sbehdh3fqf12.webp",
+  link: "https://s.shopee.com.br/7V5ZVgaU2n"
+}, 
+{
+  id: 4,
+  name: "Controle PS5 Sem Fio Cinza Camuflado DualSense",
+  description: "Sinta cada ação com resposta tátil, gatilhos adaptáveis, microfone embutido e áudio imersivo. Produto original com nota fiscal e 1 ano de garantia.",
+  price: 479.00,
+  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7iv6brtio981e@resize_w900_nl.webp",
+  link: "https://s.shopee.com.br/9fA46V3egT"
+}, 
+{
+  id: 5,
+  name: "Fone Gamer S25 com Microfone, Hifi e Cancelamento de Ruído",
+  description: "Fone ergonômico com plugue 3,5mm/Type-C, cancelamento de ruído, som imersivo e microfone HD.",
+  price: 25.61,
+  image: "https://down-br.img.susercontent.com/file/sg-11134301-7rasx-mb3c5f6lt7xfac.webp",
+  link: "https://s.shopee.com.br/4q4oSeh636"
+},
+
+
+
+
+        
+      ];
+
+      function renderProducts() {
+        const grid = document.getElementById('products-grid');
+        grid.innerHTML = ''; // limpa antes
+
+        if (products.length === 0) {
+          // vazio: a mensagem aparece via CSS no ::before (grid vazio)
+          return;
+        }
+
+        products.forEach(product => {
+          const card = document.createElement('div');
+          card.className = 'product-card';
+
+          card.innerHTML = `
+            <img src="${product.image}" alt="${product.name}" loading="lazy" />
+            <h3>${product.name}</h3>
+            <p title="${product.description}">${product.description}</p>
+            <div class="price">R$ ${product.price.toFixed(2).replace('.', ',')}</div>
+            <a href="${product.link}" target="_blank" rel="noopener noreferrer">Ver Produto</a>
+          `;
+
+          grid.appendChild(card);
+        });
+      }
+
+      // Inicializa os produtos na página
+      renderProducts();
+    </script>
+</body>
+</html>
