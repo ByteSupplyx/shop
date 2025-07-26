@@ -351,235 +351,245 @@ body {
     <script>
       // Produto estático, pode adicionar mais produtos no array para expandir
       const products = [
-        {
-          id: 1,
-          name: "Kit Gamer Teclado, Mouse RGB, MousePad LED e Headset",
-          description: "Monte seu setup gamer com teclado semi-mecânico iluminado, mouse RGB de 7 botões, mousepad grande (com ou sem LED) e headset com áudio 360° e iluminação. Conforto, performance e estilo para jogos.",
-          price: 62.99,
-          image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m84xf76mh33l7c.webp",
-          link: "https://s.shopee.com.br/4Ap7OdLlxd"
-        }, 
-        {
-  id: 2,
-  name: "Kit Mobilador Gamer Celular Android Completo",
-  description: "Transforme seu celular em um setup gamer com teclado one hand, mouse LED, mousepad, tripé, hub USB e adaptador OTG. Compatível com Android.",
-  price: 49.99,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma5teyk27hc1ae@resize_w900_nl.webp",
-  link: "https://s.shopee.com.br/gFFTiPhTt"
-},
+        const products = [
+  // 1. Teclados Mecânicos
+  {
+    id: 23,
+    name: "Teclado Mecânico Gamer Redragon Dragonborn",
+    description: "Compacto 60% ABNT2, RGB, Switch Brown tátil. Ideal para performance e estilo no setup gamer.",
+    price: 298.21,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdxm-lz56dvi0efz6a7.webp",
+    link: "https://s.shopee.com.br/2Vh12Pypbi"
+  },
+  {
+    id: 24,
+    name: "Teclado Mecânico Gamer Redragon Fizz",
+    description: "Teclado 60% ABNT2 RGB com keycaps doubleshot, leve, portátil e resistente para gamers exigentes.",
+    price: 257.62,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdya-mc27shdse1q196.webp",
+    link: "https://s.shopee.com.br/709QOmxhTj"
+  },
+  {
+    id: 28,
+    name: "Teclado Mecânico Gamer Lehmox (LEY-2080 / LEY2081 / T61)",
+    description: "Três modelos de teclado mecânico com switch azul ou vermelho (envio aleatório), conexão USB, compactos e resistentes. Ideais para gamers e produtividade, com construção premium e resposta tátil rápida.",
+    price: 112.99,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m1g5xrpu7b2p25.webp",
+    link: "https://s.shopee.com.br/VvwlvL6LY"
+  },
 
-        {
-  id: 3,
-  name: "Controle PS4 Joystick Sem Fio DualShock 4",
-  description: "Controle sem fio intuitivo, preciso e confortável para PS4.",
-  price: 79.00,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m6sbehdh3fqf12.webp",
-  link: "https://s.shopee.com.br/7V5ZVgaU2n"
-}, 
-{
-  id: 4,
-  name: "Controle PS5 Sem Fio Cinza Camuflado DualSense",
-  description: "Sinta cada ação com resposta tátil, gatilhos adaptáveis, microfone embutido e áudio imersivo. Produto original com nota fiscal e 1 ano de garantia.",
-  price: 479.00,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7iv6brtio981e@resize_w900_nl.webp",
-  link: "https://s.shopee.com.br/9fA46V3egT"
-}, 
-{
-  id: 5,
-  name: "Fone Gamer S25 com Microfone, Hifi e Cancelamento de Ruído",
-  description: "Fone ergonômico com plugue 3,5mm/Type-C, cancelamento de ruído, som imersivo e microfone HD.",
-  price: 25.61,
-  image: "https://down-br.img.susercontent.com/file/sg-11134301-7rasx-mb3c5f6lt7xfac.webp",
-  link: "https://s.shopee.com.br/4q4oSeh636"
-},
-          {       id: 6,
-  name: "Headset Gamer Knup KP-455A",
-  description: "Mergulhe na adrenalina dos jogos com o fone Knup KP-455A. Compatível com PC, celular, PS4, PS5 e Xbox, proporciona uma experiência sonora imersiva que transforma sua gameplay.",
-  price: 98.38,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0jom3bsas8x84.webp",
-  link: "https://s.shopee.com.br/1qREJ2eUNQ"
-},
+  // 2. Kits de Mobilador (Celular)
+  {
+    id: 2,
+    name: "Kit Mobilador Gamer Celular Android Completo",
+    description: "Transforme seu celular em um setup gamer com teclado one hand, mouse LED, mousepad, tripé, hub USB e adaptador OTG. Compatível com Android.",
+    price: 49.99,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma5teyk27hc1ae@resize_w900_nl.webp",
+    link: "https://s.shopee.com.br/gFFTiPhTt"
+  },
+  {
+    id: 27,
+    name: "Kit Mobilador Gamer Completo para Celular (7 em 1)",
+    description: "Transforme seu Android em um setup gamer com teclado, mouse, mouse pad, tripé, hub OTG e mais.",
+    price: 52.99,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m32f17midxcj27.webp",
+    link: "https://s.shopee.com.br/40VopmvMzI"
+  },
 
-          {
-  id: 7,
-  name: "Mouse Pad Gamer Dragão RGB Speed LED",
-  description: "Mouse pad grande com LED RGB de 13 cores, tecido Speed, impermeável. Ideal para gamers que buscam estilo e performance.",
-  price: 12.50,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lwiqszin5e2e19.webp",
-  link: "https://s.shopee.com.br/9ADnfveaIl"
-},
-         
-          {
-  id: 8,
-  name: "COMBO Gamer: Cadeira Ergonômica Pollux + Power Bank 10.200mAh",
-  description: "Cadeira com LED RGB, design esportivo, apoio lombar/cervical, reclinável, até 150kg. Power Bank 10.200mAh com display digital, USB-A/Tipo-C, carregamento rápido. Ideal para conforto e energia em qualquer setup gamer.",
-  price: 949.00,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbk2-m5vk8pq4ftqm45@resize_w900_nl.webp",
-  link: "https://s.shopee.com.br/8zuOr06bx5"
-}, 
-          {
-  id: 9,
-  name: "Cabo de Rede RJ45 Ugreen Cat8 F/FTP Macho 2M Preto",
-  description: "Ideal para jogos apostados! Tenha vantagem com conexão estável, ultrarrápida e sem lag. Blindagem F/FTP contra interferências, ótimo para partidas intensas no Free Fire (mobile ou emulador). Alta performance, ping baixo e durabilidade garantida.",
-  price: 57.19,
-  image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-ltps3wx8wg12d9.webp",
-  link: "https://s.shopee.com.br/4L8ZJmldpv"
-},
-          {
-  id: 10,
-  name: "Hub USB com 4 Portas Note PC 2.0 480Mb/s AC042",
-  description: "Transforme uma entrada USB do seu dispositivo em 4 com alta velocidade de transmissão. Fácil instalação Plug & Play, compatível com Windows e Mac OS. Ideal para expandir suas conexões USB rapidamente.",
-  price: 29.90,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-23030-jjc0upgkshovdf.webp",
-  link: "https://s.shopee.com.br/qYh9z8mk7"
-},
-          {
-  id: 11,
-  name: "Smartwatch D20 Y68 Bluetooth com Monitor de Saúde",
-  description: "Smartwatch com tela HD touch, conexão Bluetooth, monitor de frequência cardíaca, lembretes de chamada e funções inteligentes para sua saúde. Ideal para gamers que querem acompanhar o desempenho diário com estilo.",
-  price: 69.99,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbk0-lqqgjmiq5mao68.webp",
-  link: "https://s.shopee.com.br/9pTYiHHeQY"
-},
-   {
-  id: 12,
-  name: "Cooler Gamer para Celular Universal – Turbo Refrigeração",
-  description: "Evite superaquecimento com refrigeração turbo silenciosa! Compatível com Android e iPhone, ideal para jogos pesados. Inclui cabo USB.",
-  price: 19.77,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9okkn45gohu99.webp",
-  link: "https://s.shopee.com.br/2qJqhABGI6"
-},
-{
-  id: 13,
-  name: "Grelha Fan 120mm One Piece – PC Gamer Setup",
-  description: "Dê personalidade ao seu PC com grelha inspirada em One Piece. Protege a fan e melhora o visual do setup.",
-  price: 14.89,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9jfzy436lfm56.webp",
-  link: "https://s.shopee.com.br/60GsTC79dH"
-},
-{
-  id: 14,
-  name: "Grelha Fan 120mm Dragon Ball Goku – PC Gamer Setup",
-  description: "Estilo e proteção no seu setup com design do Goku. Encaixe fácil em fans 120mm.",
-  price: 14.89,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma8ov4b14p6h1b.webp",
-  link: "https://s.shopee.com.br/7ASprUmIc9"
-},
-{
-  id: 15,
-  name: "Suporte Base Refrigerada Notebook com 2 Coolers – até 17\"",
-  description: "Refrigeração potente e silenciosa com ajuste de altura. Ideal para home office e games.",
-  price: 35.97,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lywg6tmj6kd1cb.webp",
-  link: "https://s.shopee.com.br/5pxSHHbgwN"
-},
-{
-  id: 16,
-  name: "Air Cooler Duplo RGB para CPU – Intel e AMD",
-  description: "Refrigeração poderosa com 2 fans de 92mm e iluminação RGB. Compatível com Intel e AMD.",
-  price: 55.89,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2sd2nohcoatc7.webp",
-  link: "https://s.shopee.com.br/9ADuFYcxtv"
-},
-{
-  id: 17,
-  name: "Cooler G-VR341 RGB CPU – Alumínio e Fan 2300RPM",
-  description: "Alta dissipação de calor com estilo! Compatível com diversas CPUs Intel e AMD.",
-  price: 51.00,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m03dgk7rk3i52c.webp",
-  link: "https://s.shopee.com.br/3Awh6ebOxJ"
-},
-{
-  id: 18,
-  name: "Water Cooler 240mm Rise Mode Aura Ice ARGB com Display",
-  description: "Resfriamento extremo e silencioso com display de temperatura. Ideal para setups de alto desempenho.",
-  price: 597.90,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-loq2ykjm0d3p9d.webp",
-  link: "https://s.shopee.com.br/5fe25LlSWP"
-},
-          {
-  id: 19,
-  name: "Suporte RGB com HUB USB para Monitor",
-  description: "Aumente sua produtividade com suporte ajustável, iluminação LED RGB e HUB USB integrado. Design moderno, ergonômico e funcional.",
-  price: 228.17,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-7ra3q-mbauz8s56lw16c.webp",
-  link: "https://s.shopee.com.br/4L8fBVnDGR"
-},
-{
-  id: 20,
-  name: "Mousepad Gamer PCYes Dr Kepler 500x400mm",
-  description: "Mousepad premium com superfície Speed, bordas costuradas e base antiderrapante. Ideal para precisão e durabilidade no setup gamer.",
-  price: 64.90,
-  image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mcclcuqm54rs89.webp",
-  link: "https://s.shopee.com.br/3fsyOXaUJA"
-},
-{
-  id: 21,
-  name: "Mousepad Gamer Dragão Chinês 70x35cm",
-  description: "Mousepad com arte oriental e design premium. Superfície de alta precisão, base antiderrapante e bordas costuradas. Estilo e performance no seu setup.",
-  price: 22.90,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7m8bormaqhgf9.webp",
-  link: "https://s.shopee.com.br/1qRKDHF4Ac"
-},
-{
-  id: 22,
-  name: "Mousepad Gamer Dragão Japonês Personalizado 70x35",
-  description: "Mousepad grande e antiderrapante com estampas exclusivas, ideal para gamers e setups personalizados. Alta durabilidade e precisão.",
-  price: 19.95,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rfhd-m39sn3i8kdig7d.webp",
-  link: "https://s.shopee.com.br/7ASqZAIJgT"
-},
-          {
-  id: 23,
-  name: "Teclado Mecânico Gamer Redragon Dragonborn",
-  description: "Compacto 60% ABNT2, RGB, Switch Brown tátil. Ideal para performance e estilo no setup gamer.",
-  price: 298.21,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdxm-lz56dvi0efz6a7.webp",
-  link: "https://s.shopee.com.br/2Vh12Pypbi"
-},
-{
-  id: 24,
-  name: "Teclado Mecânico Gamer Redragon Fizz",
-  description: "Teclado 60% ABNT2 RGB com keycaps doubleshot, leve, portátil e resistente para gamers exigentes.",
-  price: 257.62,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdya-mc27shdse1q196.webp",
-  link: "https://s.shopee.com.br/709QOmxhTj"
-},
-{
-  id: 25,
-  name: "Kit Teclado + Mouse Gamer RGB LED",
-  description: "Combo com teclado semi-mecânico e mouse óptico com iluminação RGB fixa. Ideal para setups acessíveis.",
-  price: 53.88,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbng-lqm91eud23c0c0.webp",
-  link: "https://s.shopee.com.br/2LNaqKP0qC"
-},
-{
-  id: 26,
-  name: "Mouse Bluetooth Attack Shark X11 – Tripla Conexão",
-  description: "Mouse gamer RGB com fio, 2.4G e Bluetooth 5.2. Até 22.000 DPI, base magnética, leve e ergonômico.",
-  price: 160.90,
-  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rccw-m6gnhu4oo78219@resize_w900_nl.webp",
-  link: "https://s.shopee.com.br/zg4Ccegr"
-},
-{
-  id: 27,
-  name: "Kit Mobilador Gamer Completo para Celular (7 em 1)",
-  description: "Transforme seu Android em um setup gamer com teclado, mouse, mouse pad, tripé, hub OTG e mais.",
-  price: 52.99,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m32f17midxcj27.webp",
-  link: "https://s.shopee.com.br/40VopmvMzI"
-},
-          {
-  id: 28,
-  name: "Teclado Mecânico Gamer Lehmox (LEY-2080 / LEY2081 / T61)",
-  description: "Três modelos de teclado mecânico com switch azul ou vermelho (envio aleatório), conexão USB, compactos e resistentes. Ideais para gamers e produtividade, com construção premium e resposta tátil rápida.",
-  price: 112.99,
-  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m1g5xrpu7b2p25.webp",
-  link: "https://s.shopee.com.br/VvwlvL6LY"
-}
+  // 3. Combos e Kits Teclado + Mouse
+  {
+    id: 1,
+    name: "Kit Gamer Teclado, Mouse RGB, MousePad LED e Headset",
+    description: "Monte seu setup gamer com teclado semi-mecânico iluminado, mouse RGB de 7 botões, mousepad grande (com ou sem LED) e headset com áudio 360° e iluminação. Conforto, performance e estilo para jogos.",
+    price: 62.99,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m84xf76mh33l7c.webp",
+    link: "https://s.shopee.com.br/4Ap7OdLlxd"
+  },
+  {
+    id: 25,
+    name: "Kit Teclado + Mouse Gamer RGB LED",
+    description: "Combo com teclado semi-mecânico e mouse óptico com iluminação RGB fixa. Ideal para setups acessíveis.",
+    price: 53.88,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbng-lqm91eud23c0c0.webp",
+    link: "https://s.shopee.com.br/2LNaqKP0qC"
+  },
 
+  // 4. Mouses
+  {
+    id: 26,
+    name: "Mouse Bluetooth Attack Shark X11 – Tripla Conexão",
+    description: "Mouse gamer RGB com fio, 2.4G e Bluetooth 5.2. Até 22.000 DPI, base magnética, leve e ergonômico.",
+    price: 160.90,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rccw-m6gnhu4oo78219@resize_w900_nl.webp",
+    link: "https://s.shopee.com.br/zg4Ccegr"
+  },
 
+  // 5. Headsets e Fones
+  {
+    id: 5,
+    name: "Fone Gamer S25 com Microfone, Hifi e Cancelamento de Ruído",
+    description: "Fone ergonômico com plugue 3,5mm/Type-C, cancelamento de ruído, som imersivo e microfone HD.",
+    price: 25.61,
+    image: "https://down-br.img.susercontent.com/file/sg-11134301-7rasx-mb3c5f6lt7xfac.webp",
+    link: "https://s.shopee.com.br/4q4oSeh636"
+  },
+  {
+    id: 6,
+    name: "Headset Gamer Knup KP-455A",
+    description: "Mergulhe na adrenalina dos jogos com o fone Knup KP-455A. Compatível com PC, celular, PS4, PS5 e Xbox, proporciona uma experiência sonora imersiva que transforma sua gameplay.",
+    price: 98.38,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0jom3bsas8x84.webp",
+    link: "https://s.shopee.com.br/1qREJ2eUNQ"
+  },
 
+  // 6. Mousepads
+  {
+    id: 7,
+    name: "Mouse Pad Gamer Dragão RGB Speed LED",
+    description: "Mouse pad grande com LED RGB de 13 cores, tecido Speed, impermeável. Ideal para gamers que buscam estilo e performance.",
+    price: 12.50,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lwiqszin5e2e19.webp",
+    link: "https://s.shopee.com.br/9ADnfveaIl"
+  },
+  {
+    id: 20,
+    name: "Mousepad Gamer PCYes Dr Kepler 500x400mm",
+    description: "Mousepad premium com superfície Speed, bordas costuradas e base antiderrapante. Ideal para precisão e durabilidade no setup gamer.",
+    price: 64.90,
+    image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mcclcuqm54rs89.webp",
+    link: "https://s.shopee.com.br/3fsyOXaUJA"
+  },
+  {
+    id: 21,
+    name: "Mousepad Gamer Dragão Chinês 70x35cm",
+    description: "Mousepad com arte oriental e design premium. Superfície de alta precisão, base antiderrapante e bordas costuradas. Estilo e performance no seu setup.",
+    price: 22.90,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7m8bormaqhgf9.webp",
+    link: "https://s.shopee.com.br/1qRKDHF4Ac"
+  },
+  {
+    id: 22,
+    name: "Mousepad Gamer Dragão Japonês Personalizado 70x35",
+    description: "Mousepad grande e antiderrapante com estampas exclusivas, ideal para gamers e setups personalizados. Alta durabilidade e precisão.",
+    price: 19.95,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rfhd-m39sn3i8kdig7d.webp",
+    link: "https://s.shopee.com.br/7ASqZAIJgT"
+  },
+
+  // 7. Coolers e Refrigeração
+  {
+    id: 12,
+    name: "Cooler Gamer para Celular Universal – Turbo Refrigeração",
+    description: "Evite superaquecimento com refrigeração turbo silenciosa! Compatível com Android e iPhone, ideal para jogos pesados. Inclui cabo USB.",
+    price: 19.77,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9okkn45gohu99.webp",
+    link: "https://s.shopee.com.br/2qJqhABGI6"
+  },
+  {
+    id: 15,
+    name: "Suporte Base Refrigerada Notebook com 2 Coolers – até 17\"",
+    description: "Refrigeração potente e silenciosa com ajuste de altura. Ideal para home office e games.",
+    price: 35.97,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lywg6tmj6kd1cb.webp",
+    link: "https://s.shopee.com.br/5pxSHHbgwN"
+  },
+  {
+    id: 16,
+    name: "Air Cooler Duplo RGB para CPU – Intel e AMD",
+    description: "Refrigeração poderosa com 2 fans de 92mm e iluminação RGB. Compatível com Intel e AMD.",
+    price: 55.89,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2sd2nohcoatc7.webp",
+    link: "https://s.shopee.com.br/9ADuFYcxtv"
+  },
+  {
+    id: 17,
+    name: "Cooler G-VR341 RGB CPU – Alumínio e Fan 2300RPM",
+    description: "Alta dissipação de calor com estilo! Compatível com diversas CPUs Intel e AMD.",
+    price: 51.00,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m03dgk7rk3i52c.webp",
+    link: "https://s.shopee.com.br/3Awh6ebOxJ"
+  },
+  {
+    id: 18,
+    name: "Water Cooler 240mm Rise Mode Aura Ice ARGB com Display",
+    description: "Resfriamento extremo e silencioso com display de temperatura. Ideal para setups de alto desempenho.",
+    price: 597.90,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-loq2ykjm0d3p9d.webp",
+    link: "https://s.shopee.com.br/5fe25LlSWP"
+  },
+
+  // 8. Acessórios e Suporte
+  {
+    id: 9,
+    name: "Cabo de Rede RJ45 Ugreen Cat8 F/FTP Macho 2M Preto",
+    description: "Ideal para jogos apostados! Tenha vantagem com conexão estável, ultrarrápida e sem lag. Blindagem F/FTP contra interferências, ótimo para partidas intensas no Free Fire (mobile ou emulador). Alta performance, ping baixo e durabilidade garantida.",
+    price: 57.19,
+    image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-ltps3wx8wg12d9.webp",
+    link: "https://s.shopee.com.br/4L8ZJmldpv"
+  },
+  {
+    id: 10,
+    name: "Hub USB com 4 Portas Note PC 2.0 480Mb/s AC042",
+    description: "Transforme uma entrada USB do seu dispositivo em 4 com alta velocidade de transmissão. Fácil instalação Plug & Play, compatível com Windows e Mac OS. Ideal para expandir suas conexões USB rapidamente.",
+    price: 29.90,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-23030-jjc0upgkshovdf.webp",
+    link: "https://s.shopee.com.br/qYh9z8mk7"
+  },
+  {
+    id: 19,
+    name: "Suporte RGB com HUB USB para Monitor",
+    description: "Aumente sua produtividade com suporte ajustável, iluminação LED RGB e HUB USB integrado. Design moderno, ergonômico e funcional.",
+    price: 228.17,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7ra3q-mbauz8s56lw16c.webp",
+    link: "https://s.shopee.com.br/4L8fBVnDGR"
+  },
+
+  // 9. Controles
+  {
+    id: 3,
+    name: "Controle PS4 Joystick Sem Fio DualShock 4",
+    description: "Controle sem fio intuitivo, preciso e confortável para PS4.",
+    price: 79.00,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m6sbehdh3fqf12.webp",
+    link: "https://s.shopee.com.br/7V5ZVgaU2n"
+  },
+  {
+    id: 4,
+    name: "Controle PS5 Sem Fio Cinza Camuflado DualSense",
+    description: "Sinta cada ação com resposta tátil, gatilhos adaptáveis, microfone embutido e áudio imersivo. Produto original com nota fiscal e 1 ano de garantia.",
+    price: 479.00,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7iv6brtio981e@resize_w900_nl.webp",
+    link: "https://s.shopee.com.br/9fA46V3egT"
+  },
+
+  // 10. Smartwatch
+  {
+    id: 11,
+    name: "Smartwatch D20 Y68 Bluetooth com Monitor de Saúde",
+    description: "Smartwatch com tela HD touch, conexão Bluetooth, monitor de frequência cardíaca, lembretes de chamada e funções inteligentes para sua saúde. Ideal para gamers que querem acompanhar o desempenho diário com estilo.",
+    price: 69.99,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbk0-lqqgjmiq5mao68.webp",
+    link: "https://s.shopee.com.br/9pTYiHHeQY"
+  },
+
+  // 11. Outros (Grelhas decorativas)
+  {
+    id: 13,
+    name: "Grelha Fan 120mm One Piece – PC Gamer Setup",
+    description: "Dê personalidade ao seu PC com grelha inspirada em One Piece. Protege a fan e melhora o visual do setup.",
+    price: 14.89,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9jfzy436lfm56.webp",
+    link: "https://s.shopee.com.br/60GsTC79dH"
+  },
+  {
+    id: 14,
+    name: "Grelha Fan 120mm Dragon Ball Goku – PC Gamer Setup",
+    description: "Estilo e proteção no seu setup com design do Goku. Encaixe fácil em fans 120mm.",
+    price: 14.89,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma8ov4b14p6h1b.webp",
+    link: "https://s.shopee.com.br/7ASprUmIc9"
+  }
+];
 
 
 
