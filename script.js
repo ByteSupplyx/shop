@@ -149,13 +149,14 @@ const products = [
 },
 {
   id: 113,
-  name: "Mouse Gamer Attack Shark X11 RGB 22000 DPI",
-  description: "Mouse sem fio gamer Attack Shark X11 com sensor PAW3311 de até 22000 DPI, conexão tripla (2.4GHz, Bluetooth e com fio), iluminação RGB e dock de carregamento magnético. Alta performance e versatilidade para jogos intensos.",
-  price: 108.46,
   category: "Mouses",
-  image: "https://ae-pic-a1.aliexpress-media.com/kf/S8ebd49f4426e41b5a8a4e48e633d45892.jpg",
-  link: "https://s.click.aliexpress.com/e/_om6dSaN"
-},
+  name: "Mouse Gamer Attack Shark R1 X11 Wireless 18K DPI",
+  description: "Tri-Mode: Bluetooth / 2.4GHz / Fio. Sensor PAW3311, leve, com macros e alta precisão. Ideal para setups gamers.",
+  price: 90.22,
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/S5c0bd80f53774294ba4d4170edbb7cd3U.png",
+  link: "https://s.click.aliexpress.com/e/_olD5YjD"
+}
+
 
 // Placas De Video
 {
