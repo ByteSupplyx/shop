@@ -155,7 +155,7 @@ const products = [
   price: 90.22,
   image: "https://ae-pic-a1.aliexpress-media.com/kf/S5c0bd80f53774294ba4d4170edbb7cd3U.png",
   link: "https://s.click.aliexpress.com/e/_olD5YjD"
-}
+},
 
 
 // Placas De Video
