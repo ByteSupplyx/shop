@@ -1,7 +1,53 @@
 // Dados dos produtos
 const products = [
-  const products = [
+ 
+ 
+  // 4. Mouses
   {
+    id: 26,
+    category: "Mouses",
+    name: "Mouse Bluetooth Attack Shark X11 – Tripla Conexão",
+    description: "Mouse gamer RGB com fio, 2.4G e Bluetooth 5.2. Até 22.000 DPI, base magnética, leve e ergonômico.",
+    price: 160.90,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rccw-m6gnhu4oo78219@resize_w900_nl.webp",
+    link: "https://s.shopee.com.br/zg4Ccegr"
+  },
+  {
+  id: 108,
+  name: "Mouse Gamer 6 Botões 12.800 DPI Knup KP-MU026",
+  description: "Mouse óptico gamer com sensor instantâneo A825F, 6 botões, até 12.800 DPI e 5 milhões de cliques. Design ergonômico e alta precisão.",
+  price: 83.60,
+  category: "Mouses",
+  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd4h-m7tqne7rck9z6b.webp",
+  link: "https://s.shopee.com.br/AA6ikFe5Kg"
+},
+{
+  id: 109,
+  name: "Mouse Gamer Redragon Cobra V2 RGB 12400 DPI M711 V2",
+  description: "Mouse gamer Redragon Cobra V2 com sensor Pixart PWM3327, até 12400 DPI, 8 botões programáveis, iluminação RGB e design ergonômico.",
+  price: 135.90,
+  category: "Mouses",
+  image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mcckubecpqsgfa.webp",
+  link: "https://s.shopee.com.br/3LGObqQ2Lf"
+},
+{
+  id: 111,
+  name: "Mouse Gamer Mancer Lead 2 RGB 12400 DPI 7 Botões",
+  description: "Mouse gamer Mancer Lead 2 com sensor PMW3327+HTS71, 12400 DPI ajustável, 7 botões, RGB configurável, switches Kailh 20M e construção ergonômica com apenas 70g.",
+  price: 88.22,
+  category: "Mouses",
+  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd3k-lw91eqpznohqe4.webp",
+  link: "https://s.shopee.com.br/8Kf4ZCgYnS"
+},
+{
+  id: 113,
+  category: "Mouses",
+  name: "Mouse Gamer Attack Shark R1 X11 Wireless 18K DPI",
+  description: "Tri-Mode: Bluetooth / 2.4GHz / Fio. Sensor PAW3311, leve, com macros e alta precisão. Ideal para setups gamers.",
+  price: 90.22,
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/S5c0bd80f53774294ba4d4170edbb7cd3U.png",
+  link: "https://s.click.aliexpress.com/e/_olD5YjD"
+},{
     id: 601,
     category: "Teclados",
     name: "AULA Hero68 HE 65% Hot-Swap Wired Magnetic Gaming Keyboard",
@@ -72,8 +118,404 @@ const products = [
     price: 233.33,
     image: "https://ae-pic-a1.aliexpress-media.com/kf/S9d0c285127124820ae8fda27a0cc0b34k.jpg",
     link: "https://s.click.aliexpress.com/e/_oC8cbP7"
-  }
+  },
+    {
+    id: 26,
+    category: "Mouses",
+    name: "Mouse Bluetooth Attack Shark X11 – Tripla Conexão",
+    description: "Mouse gamer RGB com fio, 2.4G e Bluetooth 5.2. Até 22.000 DPI, base magnética, leve e ergonômico.",
+    price: 160.90,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rccw-m6gnhu4oo78219@resize_w900_nl.webp",
+    link: "https://s.shopee.com.br/zg4Ccegr"
+  },
+  {
+    id: 108,
+    category: "Mouses",
+    name: "Mouse Gamer 6 Botões 12.800 DPI Knup KP-MU026",
+    description: "Mouse óptico gamer com sensor instantâneo A825F, 6 botões, até 12.800 DPI e 5 milhões de cliques. Design ergonômico e alta precisão.",
+    price: 83.60,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd4h-m7tqne7rck9z6b.webp",
+    link: "https://s.shopee.com.br/AA6ikFe5Kg"
+  },
+  {
+    id: 109,
+    category: "Mouses",
+    name: "Mouse Gamer Redragon Cobra V2 RGB 12400 DPI M711 V2",
+    description: "Mouse gamer Redragon Cobra V2 com sensor Pixart PWM3327, até 12400 DPI, 8 botões programáveis, iluminação RGB e design ergonômico.",
+    price: 135.90,
+    image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mcckubecpqsgfa.webp",
+    link: "https://s.shopee.com.br/3LGObqQ2Lf"
+  },
+  {
+    id: 211,
+    category: "Mouses",
+    name: "Mouse Gamer Mancer Lead 2 RGB 12400 DPI 7 Botões",
+    description: "Mouse gamer Mancer Lead 2 com sensor PMW3327+HTS71, 12400 DPI ajustável, 7 botões, RGB configurável, switches Kailh 20M e construção ergonômica com apenas 70g.",
+    price: 88.22,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd3k-lw91eqpznohqe4.webp",
+    link: "https://s.shopee.com.br/8Kf4ZCgYnS"
+  },
+  {
+    id: 113,
+    category: "Mouses",
+    name: "Mouse Gamer Attack Shark R1 X11 Wireless 18K DPI",
+    description: "Tri-Mode: Bluetooth / 2.4GHz / Fio. Sensor PAW3311, leve, com macros e alta precisão. Ideal para setups gamers.",
+    price: 90.22,
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S5c0bd80f53774294ba4d4170edbb7cd3U.png",
+    link: "https://s.click.aliexpress.com/e/_olD5YjD"
+  },
+  // Placas De Video
+{
+  id: 110,
+  name: "Placa de Vídeo Soyo Radeon RX580 8G GDDR5 Monarch Dragon",
+  description: "Placa de vídeo SOYO RX580 com 8GB GDDR5, até 1750MHz, suporte a DirectX 12, PCIe 3.0, resfriamento a ar e conectividade HDMI/DisplayPort. Ideal para gamers e criadores de conteúdo.",
+  price: 899.90,
+  category: "Placas de Vídeo",
+  image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lolne6xswuz04d.webp",
+  link: "https://s.shopee.com.br/5Ai2nomvwo"
+},
+
+
+
+
+  // 5. Headsets e Fones
+  {
+    id: 5,
+    category: "Headsets e Fones",
+    name: "Fone Gamer S25 com Microfone, Hifi e Cancelamento de Ruído",
+    description: "Fone ergonômico com plugue 3,5mm/Type-C, cancelamento de ruído, som imersivo e microfone HD.",
+    price: 25.61,
+    image: "https://down-br.img.susercontent.com/file/sg-11134301-7rasx-mb3c5f6lt7xfac.webp",
+    link: "https://s.shopee.com.br/4q4oSeh636"
+  },
+  {
+    id: 6,
+    category: "Headsets e Fones",
+    name: "Headset Gamer Knup KP-455A",
+    description: "Mergulhe na adrenalina dos jogos com o fone Knup KP-455A. Compatível com PC, celular, PS4, PS5 e Xbox, proporciona uma experiência sonora imersiva que transforma sua gameplay.",
+    price: 98.38,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0jom3bsas8x84.webp",
+    link: "https://s.shopee.com.br/1qREJ2eUNQ"
+  },
+
+  // 6. Mousepads
+  {
+    id: 7,
+    category: "Mousepads",
+    name: "Mouse Pad Gamer Dragão RGB Speed LED",
+    description: "Mouse pad grande com LED RGB de 13 cores, tecido Speed, impermeável. Ideal para gamers que buscam estilo e performance.",
+    price: 12.50,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lwiqszin5e2e19.webp",
+    link: "https://s.shopee.com.br/9ADnfveaIl"
+  },
+  {
+    id: 20,
+    category: "Mousepads",
+    name: "Mousepad Gamer PCYes Dr Kepler 500x400mm",
+    description: "Mousepad premium com superfície Speed, bordas costuradas e base antiderrapante. Ideal para precisão e durabilidade no setup gamer.",
+    price: 64.90,
+    image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mcclcuqm54rs89.webp",
+    link: "https://s.shopee.com.br/3fsyOXaUJA"
+  },
+  {
+    id: 21,
+    category: "Mousepads",
+    name: "Mousepad Gamer Dragão Chinês 70x35cm",
+    description: "Mousepad com arte oriental e design premium. Superfície de alta precisão, base antiderrapante e bordas costuradas. Estilo e performance no seu setup.",
+    price: 22.90,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7m8bormaqhgf9.webp",
+    link: "https://s.shopee.com.br/1qRKDHF4Ac"
+  },
+  {
+    id: 22,
+    category: "Mousepads",
+    name: "Mousepad Gamer Dragão Japonês Personalizado 70x35",
+    description: "Mousepad grande e antiderrapante com estampas exclusivas, ideal para gamers e setups personalizados. Alta durabilidade e precisão.",
+    price: 19.95,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rfhd-m39sn3i8kdig7d.webp",
+    link: "https://s.shopee.com.br/7ASqZAIJgT"
+  },
+
+  // ARMAZENAMENTO
+  {
+  id: 114,
+  name: "SSD NVMe KOOTION X16Plus M.2 PCIe 4.0x4",
+  description: "SSD interno KOOTION X16Plus M.2 2280 com interface PCIe 4.0x4, velocidades ultra-rápidas e compatibilidade com PS5, notebooks e PCs. Disponível em versões de 512GB, 1TB e 2TB para máxima performance.",
+  price: 297.25,
+  category: "Armazenamento",
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/S93ae9999727a4c649001676d347a080e6.jpeg",
+  link: "https://s.click.aliexpress.com/e/_oFLBLRT"
+},
+
+//Placas Maes
+{
+  id: 115,
+  name: "Placa-mãe QIYIDA X99 D4 TPM2.0 LGA 2011-3",
+  description: "Placa-mãe QIYIDA X99 D4 com chipset X99 C612, suporte a memória DDR4, slot M.2, SATA 3.0, USB 3.0 e PCIe x16. Ideal para setups potentes e custo-benefício.",
+  price: 247.34,
+  category: "Placas-mãe",
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/S84ef02bad81447f599cd7a339b970a41K.jpg",
+  link: "https://s.click.aliexpress.com/e/_ooipObJ"
+},
+{
+  id: 116,
+  name: "Kit MACHINIST B9 X99 - Placa-mãe + CPU Xeon E5 2630 V4 + RAM 16GB DDR4",
+  description: "Conjunto com placa-mãe X99 LGA2011-3, processador Intel Xeon E5 2630 V4 e memória DDR4 16GB 2400MHz. Suporte a NVMe M.2 e SATA. Excelente custo-benefício para setups de alto desempenho.",
+  price: 275.32,
+  category: "Placas-mãe",
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/S69ca326febb949a2bdf8f8b3e011e2ecy.jpg",
+  link: "https://s.click.aliexpress.com/e/_olgc90N"
+},
+{
+  id: 117,
+  name: "Placa-mãe MACHINIST X99 PR9 - LGA 2011-3 Suporte Xeon E5 V3/V4",
+  description: "Placa-mãe X99 PR9 com suporte para CPUs Intel Xeon E5 V3/V4, memória DDR4, conexões SATA e slot NVMe M.2. Ideal para upgrades de PC com alto desempenho e baixo custo.",
+  price: 210.64,
+  category: "Placas-mãe",
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/S1abb530d67844fd6a2b753fa936e6b23b.jpg",
+  link: "https://s.click.aliexpress.com/e/_olEk7zR"
+},
+
+//Consoles
+{
+  id: 118,
+  name: "Console Retro M8 4K com 10000 Jogos + 2 Controles Sem Fio",
+  description: "Console retrô com 64GB, 2 controles sem fio 2.4GHz, suporte a saída 4K, com mais de 10.000 jogos clássicos. Ideal para presentear e reviver a nostalgia gamer.",
+  price: 75.57,
+  category: "Consoles",
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/Sc03ed26f67f8478caf1563339c11cf24C.jpg",
+  link: "https://s.click.aliexpress.com/e/_oEtEatF"
+},
+{
+  id: 119,
+  name: "Console Retro M15 4K com 30000+ Jogos + 2 Controles Sem Fio",
+  description: "Console retrô M15 com 64GB, saída 4K, mais de 30.000 jogos clássicos, acompanha dois controles sem fio 2.4GHz. Ideal para diversão em família ou presente.",
+  price: 128.99,
+  category: "Consoles",
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/S4d96148c89584adfa1a6818e99b23ec6S.jpg",
+  link: "https://s.click.aliexpress.com/e/_op0CCnf"
+},
+{
+  id: 120,
+  name: "Novo Smart TV Vara Android Vídeo 4K Bluetooth RK3228A Quad-Core Media Player MX10 F2",
+  description: "Media player Android MX10 F2 com processador quad-core RK3228A, suporte a vídeo 4K e Bluetooth, ideal para transformar sua TV em smart com diversas funcionalidades.",
+  price: 73.49,
+  category: "Consoles",
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/S952963c823d34aef908ac7895189a290s.jpg",
+  link: "https://s.click.aliexpress.com/e/_olDy07J"
+},
+  {
+    id: 121,
+    name: "Console Retro M15 4K Pro com 64GB + 30.000 Jogos",
+    description: "Console M15 4K com 2 controles sem fio, 64GB de armazenamento e mais de 30.000 jogos clássicos. Conecte diretamente à TV para reviver os melhores momentos dos games retrô.",
+    price: 128.99,
+    category: "Consoles",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S4d96148c89584adfa1a6818e99b23ec6S.jpg",
+    link: "https://s.click.aliexpress.com/e/_op0CCnf"
+  },
+  {
+    id: 122,
+    name: "VILCORN X50 MAX Console Portátil Retro",
+    description: "Console portátil VILCORN X50 MAX compatível com PS1, GBA, SNES e mais. Ideal para reviver clássicos com qualidade de som e vídeo em um dispositivo compacto e moderno.",
+    price: 183.42,
+    category: "Consoles",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/Sd3323ebef90146fab0e53233550a2b28k.jpg",
+    link: "https://s.click.aliexpress.com/e/_onbRSW9"
+  },
+
+  //Monitores
+  {
+  id: 123,
+  name: "Monitor Portátil ARZOPA A1 15.6\" FHD IPS",
+  description: "Monitor portátil ultrafino de 15.6\" com tela IPS Full HD 1080P, corpo em liga metálica, leve e compatível com laptop, Mac, iPhone, PS5, Xbox e mais. Oferece três modos de uso: espelhamento, extensão e segunda tela. Ideal para trabalho, estudo ou entretenimento.",
+  price: 679.99,
+  category: "Monitores",
+  image: "https://down-br.img.susercontent.com/file/cn-11134207-7ras8-mb7iup7d8vnpfc.webp",
+  link: "https://s.shopee.com.br/802EKGr4Oz"
+},
+
+
+
+//Gabinetes
+{
+  id: 124,
+  name: "Gabinete Gamer Acegeek Shield D440 Mid-Tower",
+  description: "Gabinete gamer Mid-Tower com lateral em vidro temperado, suporte para placas ATX/mATX/ITX, até 7 fans, refrigeração líquida frontal 360mm, excelente gerenciamento de cabos e design robusto para setups imponentes.",
+  price: 211.75,
+  category: "Gabinetes",
+  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdw2-m0lzv81lp5oi25.webp",
+  link: "https://s.shopee.com.br/2qK8AxWh4B"
+},
+{
+  id: 125,
+  name: "Gabinete Gamer Pichau Atom X Mini-Tower",
+  description: "Gabinete compacto com lateral em vidro temperado, suporte para placas M-ATX e ITX, até 7 ventoinhas, suporte para GPU até 320mm, estrutura em aço SPCC 0,4mm e design moderno para setups versáteis.",
+  price: 176.46,
+  category: "Gabinetes",
+  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdyw-mc28nvdour408d.webp",
+  link: "https://s.shopee.com.br/709h8lcllr"
+},
+{
+  id: 126,
+  name: "Gabinete Gamer Acegeek Vacancy L375 Mid-Tower Branco",
+  description: "Gabinete Mid-Tower com lateral em vidro temperado branco, suporte para placas M-ATX e ITX, diversas opções de ventoinhas, suporte para water cooler lateral e superior, design espaçoso e elegante.",
+  price: 235.28,
+  category: "Gabinetes",
+  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdvk-lzjd2ygi3y94ff.webp",
+  link: "https://s.shopee.com.br/40W5ZO7mXc"
+},
+
+
+
+
+  // 7. Coolers e Refrigeração
+  {
+    id: 12,
+    category: "Coolers e Refrigeração",
+    name: "Cooler Gamer para Celular Universal – Turbo Refrigeração",
+    description: "Evite superaquecimento com refrigeração turbo silenciosa! Compatível com Android e iPhone, ideal para jogos pesados. Inclui cabo USB.",
+    price: 19.77,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9okkn45gohu99.webp",
+    link: "https://s.shopee.com.br/2qJqhABGI6"
+  },
+  {
+    id: 15,
+    category: "Coolers e Refrigeração",
+    name: "Suporte Base Refrigerada Notebook com 2 Coolers – até 17\"",
+    description: "Refrigeração potente e silenciosa com ajuste de altura. Ideal para home office e games.",
+    price: 35.97,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lywg6tmj6kd1cb.webp",
+    link: "https://s.shopee.com.br/5pxSHHbgwN"
+  },
+  {
+    id: 16,
+    category: "Coolers e Refrigeração",
+    name: "Air Cooler Duplo RGB para CPU – Intel e AMD",
+    description: "Refrigeração poderosa com 2 fans de 92mm e iluminação RGB. Compatível com Intel e AMD.",
+    price: 55.89,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2sd2nohcoatc7.webp",
+    link: "https://s.shopee.com.br/9ADuFYcxtv"
+  },
+  {
+    id: 17,
+    category: "Coolers e Refrigeração",
+    name: "Cooler G-VR341 RGB CPU – Alumínio e Fan 2300RPM",
+    description: "Alta dissipação de calor com estilo! Compatível com diversas CPUs Intel e AMD.",
+    price: 51.00,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m03dgk7rk3i52c.webp",
+    link: "https://s.shopee.com.br/3Awh6ebOxJ"
+  },
+  {
+  id: 127,
+  name: "Kit Ventoinhas TGT Striker Rainbow 5x120mm",
+  description: "Kit com 5 ventoinhas de 120mm com iluminação Rainbow, rolamento Hydro Bearing, silenciosas, duráveis e com fluxo de ar de 52.50 CFM para resfriamento eficiente.",
+  price: 49.41,
+  category: "Coolers e Refrigeração",
+  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdwl-mbyawjmwdiz2c0.webp",
+  link: "https://s.shopee.com.br/4ApVlmn7ns"
+},
+{
+  id: 128,
+  name: "Kit Ventoinhas Acegeek Prime ARGB 5x120mm Branco",
+  description: "Kit com 5 ventoinhas Acegeek Prime ARGB, 120mm, branco, rolamento hidráulico, 1200 RPM, fluxo de ar de 55.92 CFM e baixa emissão de ruído para resfriamento eficiente.",
+  price: 199.99,
+  category: "Coolers e Refrigeração",
+  image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdwu-lztef4h6k59zec.webp",
+  link: "https://s.shopee.com.br/802ELB2ozB"
+},
+
+
+  {
+    id: 18,
+    category: "Coolers e Refrigeração",
+    name: "Water Cooler 240mm Rise Mode Aura Ice ARGB com Display",
+    description: "Resfriamento extremo e silencioso com display de temperatura. Ideal para setups de alto desempenho.",
+    price: 597.90,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-loq2ykjm0d3p9d.webp",
+    link: "https://s.shopee.com.br/5fe25LlSWP"
+  },
+
+  // 8. Acessórios
+  {
+    id: 9,
+    category: "Acessórios",
+    name: "Cabo de Rede RJ45 Ugreen Cat8 F/FTP Macho 2M Preto",
+    description: "Ideal para jogos apostados! Tenha vantagem com conexão estável, ultrarrápida e sem lag. Blindagem F/FTP contra interferências, ótimo para partidas intensas no Free Fire (mobile ou emulador). Alta performance, ping baixo e durabilidade garantida.",
+    price: 57.19,
+    image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-ltps3wx8wg12d9.webp",
+    link: "https://s.shopee.com.br/4L8ZJmldpv"
+  },
+  {
+    id: 10,
+    category: "Acessórios",
+    name: "Hub USB com 4 Portas Note PC 2.0 480Mb/s AC042",
+    description: "Transforme uma entrada USB do seu dispositivo em 4 com alta velocidade de transmissão. Fácil instalação Plug & Play, compatível com Windows e Mac OS. Ideal para expandir suas conexões USB rapidamente.",
+    price: 29.90,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-23030-jjc0upgkshovdf.webp",
+    link: "https://s.shopee.com.br/qYh9z8mk7"
+  },
+  {
+    id: 19,
+    category: "Acessórios",
+    name: "Suporte RGB com HUB USB para Monitor",
+    description: "Aumente sua produtividade com suporte ajustável, iluminação LED RGB e HUB USB integrado. Design moderno, ergonômico e funcional.",
+    price: 228.17,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7ra3q-mbauz8s56lw16c.webp",
+    link: "https://s.shopee.com.br/4L8fBVnDGR"
+  },
+
+  // 9. Controles
+  {
+    id: 3,
+    category: "Controles",
+    name: "Controle PS4 Joystick Sem Fio DualShock 4",
+    description: "Controle sem fio intuitivo, preciso e confortável para PS4.",
+    price: 79.00,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m6sbehdh3fqf12.webp",
+    link: "https://s.shopee.com.br/7V5ZVgaU2n"
+  },
+  {
+    id: 4,
+    category: "Controles",
+    name: "Controle PS5 Sem Fio Cinza Camuflado DualSense",
+    description: "Sinta cada ação com resposta tátil, gatilhos adaptáveis, microfone embutido e áudio imersivo. Produto original com nota fiscal e 1 ano de garantia.",
+    price: 479.00,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7iv6brtio981e@resize_w900_nl.webp",
+    link: "https://s.shopee.com.br/9fA46V3egT"
+  },
+
+  // 10. Smartwatch
+  {
+    id: 11,
+    category: "Smartwatch",
+    name: "Smartwatch D20 Y68 Bluetooth com Monitor de Saúde",
+    description: "Smartwatch com tela HD touch, conexão Bluetooth, monitor de frequência cardíaca, lembretes de chamada e funções inteligentes para sua saúde. Ideal para gamers que querem acompanhar o desempenho diário com estilo.",
+    price: 69.99,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbk0-lqqgjmiq5mao68.webp",
+    link: "https://s.shopee.com.br/9pTYiHHeQY"
+  },
+
+  // 11. Outros
+  {
+    id: 13,
+    category: "Outros",
+    name: "Grelha Fan 120mm One Piece – PC Gamer Setup",
+    description: "Dê personalidade ao seu PC com grelha inspirada em One Piece. Protege a fan e melhora o visual do setup.",
+    price: 14.89,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9jfzy436lfm56.webp",
+    link: "https://s.shopee.com.br/60GsTC79dH"
+  },
+  {
+    id: 14,
+    category: "Outros",
+    name: "Grelha Fan 120mm Dragon Ball Goku – PC Gamer Setup",
+    description: "Estilo e proteção no seu setup com design do Goku. Encaixe fácil em fans 120mm.",
+    price: 14.89,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma8ov4b14p6h1b.webp",
+    link: "https://s.shopee.com.br/7ASprUmIc9"
+  },
 ];
+
 
 
 
