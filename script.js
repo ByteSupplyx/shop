@@ -1,33 +1,80 @@
 // Dados dos produtos
 const products = [
+  const products = [
   {
-    "id": 601,
-    "category": "Teclados",
-    "name": "AULA Hero68 HE 65% Hot-Swap Wired Magnetic Gaming Keyboard",
-    "description": "Teclado gamer 65% compacto, layout ANSI US, hot-swap, efeito hall 8kHz, RGB backlight, design magnético, ideal para jogos e digitação rápida.",
-    "price": 238.51,
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se6c08b6dc7ca43a6aef315edb981a7c8y.jpg",
-    "link": "https://s.click.aliexpress.com/e/_ol62hWn"
+    id: 601,
+    category: "Teclados",
+    name: "AULA Hero68 HE 65% Hot-Swap Wired Magnetic Gaming Keyboard",
+    description: "Teclado gamer 65% compacto, layout ANSI US, hot-swap, efeito hall 8kHz, RGB backlight, design magnético, ideal para jogos e digitação rápida.",
+    price: 238.51,
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/Se6c08b6dc7ca43a6aef315edb981a7c8y.jpg",
+    link: "https://s.click.aliexpress.com/e/_ol62hWn"
   },
   {
-    "id": 23,
-    "category": "Teclados",
-    "name": "Teclado Mecânico Gamer Redragon Dragonborn",
-    "description": "Compacto 60% ABNT2, RGB, Switch Brown tátil. Ideal para performance e estilo no setup gamer.",
-    "price": 298.21,
-    "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rdxm-lz56dvi0efz6a7.webp",
-    "link": "https://s.shopee.com.br/2Vh12Pypbi"
+    id: 23,
+    category: "Teclados",
+    name: "Teclado Mecânico Gamer Redragon Dragonborn",
+    description: "Compacto 60% ABNT2, RGB, Switch Brown tátil. Ideal para performance e estilo no setup gamer.",
+    price: 298.21,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdxm-lz56dvi0efz6a7.webp",
+    link: "https://s.shopee.com.br/2Vh12Pypbi"
   },
   {
-    "id": 24,
-    "category": "Teclados",
-    "name": "Teclado Mecânico Gamer Redragon Fizz",
-    "description": "Teclado 60% ABNT2 RGB com keycaps doubleshot, leve, portátil e resistente para gamers exigentes.",
-    "price": 257.62,
-    "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rdya-mc27shdse1q196.webp",
-    "link": "https://s.shopee.com.br/709QOmxhTj"
+    id: 24,
+    category: "Teclados",
+    name: "Teclado Mecânico Gamer Redragon Fizz",
+    description: "Teclado 60% ABNT2 RGB com keycaps doubleshot, leve, portátil e resistente para gamers exigentes.",
+    price: 257.62,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdya-mc27shdse1q196.webp",
+    link: "https://s.shopee.com.br/709QOmxhTj"
+  },
+  {
+    id: 28,
+    category: "Teclados",
+    name: "Teclado Mecânico Gamer Lehmox (LEY-2080 / LEY2081 / T61)",
+    description: "Três modelos de teclado mecânico com switch azul ou vermelho (envio aleatório), conexão USB, compactos e resistentes. Ideais para gamers e produtividade, com construção premium e resposta tátil rápida.",
+    price: 112.99,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m1g5xrpu7b2p25.webp",
+    link: "https://s.shopee.com.br/VvwlvL6LY"
+  },
+  {
+    id: 106,
+    category: "Teclados",
+    name: "Teclado Gamer 61 Teclas RGB Compacto USB-C",
+    description: "Mini teclado com fio, 61 teclas com luz RGB e cabo USB-C plugável. Ideal para setups compactos e viagens.",
+    price: 87.38,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdxs-mcg9ljwyouk79d.webp",
+    link: "https://s.shopee.com.br/30dYBHRmpI"
+  },
+  {
+    id: 107,
+    category: "Teclados",
+    name: "Teclado Gamer Single Hand Uma Mão RGB",
+    description: "Teclado semi-mecânico de uma mão com LED RGB, apoio ergonômico e conexão USB 2.0. Compacto, leve e ideal para jogos.",
+    price: 42.56,
+    image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-malddqk8ha0pe6.webp",
+    link: "https://s.shopee.com.br/AA6ij8RXET"
+  },
+  {
+    id: 111,
+    category: "Teclados",
+    name: "Teclado Mecânico Akko MonsGeek FUN60 60% Switch Magnético",
+    description: "Teclado gamer compacto 60% com switches magnéticos, trigger ultra rápido de 0.01mm, polling rate de 8K, iluminação ARGB e design customizado HE/TMR. Ideal para performance máxima.",
+    price: 173.75,
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S5fb48a1c54644d729c4184b89b8dc198G.jpg",
+    link: "https://s.click.aliexpress.com/e/_oBLZcC1"
+  },
+  {
+    id: 112,
+    category: "Teclados",
+    name: "Teclado Mecânico Gamer AULA F75 RGB 75% Layout",
+    description: "Teclado mecânico gamer AULA F75 com conexão 2.4G/Bluetooth/Cabo, layout 75%, estrutura Gasket, iluminação RGB e perfil OEM customizado. Perfeito para setups modernos e versáteis.",
+    price: 233.33,
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S9d0c285127124820ae8fda27a0cc0b34k.jpg",
+    link: "https://s.click.aliexpress.com/e/_oC8cbP7"
   }
 ];
+
 
 
 
