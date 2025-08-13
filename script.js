@@ -2,6 +2,7 @@
 const products = [
   // 1. Teclados Mecânicos
   {
+    id: 645
   nome: "AULA Hero68 HE 65% ANSI US Layout Hot-Swap Wired Magnetic Gaming Keyboard",
   preco: 238.51,
   imagem: "https://ae-pic-a1.aliexpress-media.com/kf/Se6c08b6dc7ca43a6aef315edb981a7c8y.jpg",
@@ -257,6 +258,7 @@ const products = [
   link: "https://s.click.aliexpress.com/e/_oFLBLRT"
 },
   {
+    id: 865
     nome: "SSD Pichau Rover, 512GB, M.2 2280, PCIe NVMe",
     preco: 331.68,
     imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rdw3-mcw7c0v3a7l2d5.webp",
@@ -265,6 +267,7 @@ const products = [
     categoria: "Armazenamento"
   },
    {
+     id: 964
     nome: "Fonte TGT Enfield, 500W, ATX Bivolt, Preto",
     preco: 188.22,
     imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rdx0-m1il0rnfbg3sc6.webp",
@@ -303,6 +306,7 @@ const products = [
   link: "https://s.click.aliexpress.com/e/_olEk7zR"
 },
     {
+      id: 943
     nome: "Processador AMD Ryzen 5 5600GT, 3.6GHz (4.6GHz Turbo), AM4, Cooler Incluso",
     preco: 888.12,
     imagem: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mcckkx5tomao9e@resize_w900_nl.webp",
@@ -311,6 +315,7 @@ const products = [
     categoria: "Placas-mãe"
   },
    {
+     id: 547
     nome: "Memória DDR4 XPG Spectrix D35G, RGB, 8GB, 3200MHz, Black",
     preco: 270.90,
     imagem: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mccksufw7m5c29.webp",
