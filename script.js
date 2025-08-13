@@ -2,6 +2,14 @@
 const products = [
   // 1. Teclados Mecânicos
   {
+  nome: "AULA Hero68 HE 65% ANSI US Layout Hot-Swap Wired Magnetic Gaming Keyboard",
+  preco: 238.51,
+  imagem: "https://ae-pic-a1.aliexpress-media.com/kf/Se6c08b6dc7ca43a6aef315edb981a7c8y.jpg",
+  link: "https://s.click.aliexpress.com/e/_ol62hWn",
+  descricao: "Teclado gamer 65% compacto, layout ANSI US, hot-swap, efeito hall 8kHz, RGB backlight, design magnético, ideal para jogos e digitação rápida.",
+  categoria: "Teclados"
+},
+  {
     id: 23,
     category: "Teclados",
     name: "Teclado Mecânico Gamer Redragon Dragonborn",
