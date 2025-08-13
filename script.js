@@ -1,15 +1,7 @@
 // Dados dos produtos
 const products = [
   // 1. Teclados Mecânicos
-  {
-    id: 645
-  nome: "AULA Hero68 HE 65% ANSI US Layout Hot-Swap Wired Magnetic Gaming Keyboard",
-  preco: 238.51,
-  imagem: "https://ae-pic-a1.aliexpress-media.com/kf/Se6c08b6dc7ca43a6aef315edb981a7c8y.jpg",
-  link: "https://s.click.aliexpress.com/e/_ol62hWn",
-  descricao: "Teclado gamer 65% compacto, layout ANSI US, hot-swap, efeito hall 8kHz, RGB backlight, design magnético, ideal para jogos e digitação rápida.",
-  categoria: "Teclados"
-},
+  
   {
     id: 23,
     category: "Teclados",
@@ -100,14 +92,7 @@ const products = [
   },
 
   // 3. Combos e Kits Teclado + Mouse
-    {
-    nome: "PC Gamer Completo Mancer, AMD RYZEN 5, 16GB DDR4, SSD 480GB, Fonte 400W 80 Plus",
-    preco: 2227.99,
-    imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rdwm-m0m3cnutcsit23.webp",
-    link: "https://s.shopee.com.br/BJae9jOHp",
-    descricao: "Ryzen 5 3400G, vídeo integrado Vega 11, 16GB DDR4, SSD 480GB, fonte 400W 80 Plus, monitor 21'', kit gamer (teclado, mouse, headset, mousepad).",
-    categoria: "Kits Gamer"
-  },
+    
   {
     id: 1,
     category: "Kits Gamer",
@@ -257,15 +242,7 @@ const products = [
   image: "https://ae-pic-a1.aliexpress-media.com/kf/S93ae9999727a4c649001676d347a080e6.jpeg",
   link: "https://s.click.aliexpress.com/e/_oFLBLRT"
 },
-  {
-    id: 865
-    nome: "SSD Pichau Rover, 512GB, M.2 2280, PCIe NVMe",
-    preco: 331.68,
-    imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rdw3-mcw7c0v3a7l2d5.webp",
-    link: "https://s.shopee.com.br/AKQMkPmOKA",
-    descricao: "Velocidade de leitura 3500MB/s e gravação 1800MB/s, interface PCIe 3.0 NVMe, TBW 160TB, design compacto.",
-    categoria: "Armazenamento"
-  },
+  
    {
      id: 964
     nome: "Fonte TGT Enfield, 500W, ATX Bivolt, Preto",
@@ -305,15 +282,7 @@ const products = [
   image: "https://ae-pic-a1.aliexpress-media.com/kf/S1abb530d67844fd6a2b753fa936e6b23b.jpg",
   link: "https://s.click.aliexpress.com/e/_olEk7zR"
 },
-    {
-      id: 943
-    nome: "Processador AMD Ryzen 5 5600GT, 3.6GHz (4.6GHz Turbo), AM4, Cooler Incluso",
-    preco: 888.12,
-    imagem: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mcckkx5tomao9e@resize_w900_nl.webp",
-    link: "https://s.shopee.com.br/6fX4NIIqOv",
-    descricao: "6 núcleos, 12 threads, soquete AM4, cache L3 de 16MB, até 4.6GHz, TDP 65W, cooler Wraith Stealth incluso.",
-    categoria: "Placas-mãe"
-  },
+    
    {
      id: 547
     nome: "Memória DDR4 XPG Spectrix D35G, RGB, 8GB, 3200MHz, Black",
