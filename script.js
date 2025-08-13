@@ -91,6 +91,14 @@ const products = [
   },
 
   // 3. Combos e Kits Teclado + Mouse
+    {
+    nome: "PC Gamer Completo Mancer, AMD RYZEN 5, 16GB DDR4, SSD 480GB, Fonte 400W 80 Plus",
+    preco: 2227.99,
+    imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rdwm-m0m3cnutcsit23.webp",
+    link: "https://s.shopee.com.br/BJae9jOHp",
+    descricao: "Ryzen 5 3400G, vídeo integrado Vega 11, 16GB DDR4, SSD 480GB, fonte 400W 80 Plus, monitor 21'', kit gamer (teclado, mouse, headset, mousepad).",
+    categoria: "Kits Gamer"
+  },
   {
     id: 1,
     category: "Kits Gamer",
@@ -240,6 +248,22 @@ const products = [
   image: "https://ae-pic-a1.aliexpress-media.com/kf/S93ae9999727a4c649001676d347a080e6.jpeg",
   link: "https://s.click.aliexpress.com/e/_oFLBLRT"
 },
+  {
+    nome: "SSD Pichau Rover, 512GB, M.2 2280, PCIe NVMe",
+    preco: 331.68,
+    imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rdw3-mcw7c0v3a7l2d5.webp",
+    link: "https://s.shopee.com.br/AKQMkPmOKA",
+    descricao: "Velocidade de leitura 3500MB/s e gravação 1800MB/s, interface PCIe 3.0 NVMe, TBW 160TB, design compacto.",
+    categoria: "Armazenamento"
+  },
+   {
+    nome: "Fonte TGT Enfield, 500W, ATX Bivolt, Preto",
+    preco: 188.22,
+    imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rdx0-m1il0rnfbg3sc6.webp",
+    link: "https://s.shopee.com.br/6KuDzCpBT8",
+    descricao: "500W, ATX 2.31, bivolt, ventoinha 120mm, baixo ruído, proteções OVP/UVP/SCP/OPP.",
+    categoria: "Fontes"
+  },
 
 //Placas Maes
 {
@@ -251,6 +275,7 @@ const products = [
   image: "https://ae-pic-a1.aliexpress-media.com/kf/S84ef02bad81447f599cd7a339b970a41K.jpg",
   link: "https://s.click.aliexpress.com/e/_ooipObJ"
 },
+  
 {
   id: 116,
   name: "Kit MACHINIST B9 X99 - Placa-mãe + CPU Xeon E5 2630 V4 + RAM 16GB DDR4",
@@ -269,6 +294,23 @@ const products = [
   image: "https://ae-pic-a1.aliexpress-media.com/kf/S1abb530d67844fd6a2b753fa936e6b23b.jpg",
   link: "https://s.click.aliexpress.com/e/_olEk7zR"
 },
+    {
+    nome: "Processador AMD Ryzen 5 5600GT, 3.6GHz (4.6GHz Turbo), AM4, Cooler Incluso",
+    preco: 888.12,
+    imagem: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mcckkx5tomao9e@resize_w900_nl.webp",
+    link: "https://s.shopee.com.br/6fX4NIIqOv",
+    descricao: "6 núcleos, 12 threads, soquete AM4, cache L3 de 16MB, até 4.6GHz, TDP 65W, cooler Wraith Stealth incluso.",
+    categoria: "Placas-mãe"
+  },
+   {
+    nome: "Memória DDR4 XPG Spectrix D35G, RGB, 8GB, 3200MHz, Black",
+    preco: 270.90,
+    imagem: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mccksufw7m5c29.webp",
+    link: "https://s.shopee.com.br/10ARDDNk3",
+    descricao: "DDR4, 8GB, 3200MHz, CL16, RGB endereçável, dissipador de calor baixo perfil, suporte Intel XMP 2.0.",
+    categoria: "Memória RAM"
+  },
+  
 
 //Consoles
 {
@@ -358,6 +400,8 @@ const products = [
   image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdvk-lzjd2ygi3y94ff.webp",
   link: "https://s.shopee.com.br/40W5ZO7mXc"
 },
+
+  
 
 
 
@@ -514,7 +558,7 @@ const products = [
 // Categorias e lojas
 const categories = [
     "Teclados", "Mouses", "Kits Gamer", "Placas de Vídeo", "Coolers e Refrigeração",
-    "Gabinetes", "Placas-mãe", "Consoles", "Monitores", "Armazenamento", "Acessórios"
+    "Gabinetes", "Placas-mãe", "Consoles", "Monitores", "Armazenamento", "Acessórios", "Fontes", "Memória RAM "
 ];
 
 const stores = [
