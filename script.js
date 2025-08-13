@@ -1,7 +1,16 @@
 // Dados dos produtos
 const products = [
   // 1. Teclados Mecânicos
-  
+
+  {
+  id: 601,
+  category: "Teclados",
+  name: "AULA Hero68 HE 65% Hot-Swap Wired Magnetic Gaming Keyboard",
+  description: "Teclado gamer 65% compacto, layout ANSI US, hot-swap, efeito hall 8kHz, RGB backlight, design magnético, ideal para jogos e digitação rápida.",
+  price: 238.51,
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/Se6c08b6dc7ca43a6aef315edb981a7c8y.jpg",
+  link: "https://s.click.aliexpress.com/e/_ol62hWn"
+},
   {
     id: 23,
     category: "Teclados",
@@ -78,7 +87,8 @@ const products = [
   link: "https://s.click.aliexpress.com/e/_ol62hWn"
 },
 {
-  id: 115,
+{
+  id: 602,
   category: "Processadores",
   name: "Processador AMD Ryzen 5 5600GT, 3.6GHz (4.6GHz Turbo), AM4, Cooler Incluso",
   description: "6 núcleos, 12 threads, soquete AM4, cache L3 de 16MB, até 4.6GHz, TDP 65W, cooler Wraith Stealth incluso.",
@@ -87,7 +97,7 @@ const products = [
   link: "https://s.shopee.com.br/6fX4NIIqOv"
 },
 {
-  id: 116,
+  id: 603,
   category: "Memória RAM",
   name: "Memória DDR4 XPG Spectrix D35G, RGB, 8GB, 3200MHz, Black",
   description: "DDR4, 8GB, 3200MHz, CL16, RGB endereçável, dissipador de calor baixo perfil, suporte Intel XMP 2.0.",
@@ -95,8 +105,8 @@ const products = [
   image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mccksufw7m5c29.webp",
   link: "https://s.shopee.com.br/10ARDDNk3"
 },
-{
-  id: 117,
+  {
+  id: 604,
   category: "Armazenamento",
   name: "SSD Pichau Rover, 512GB, M.2 2280, PCIe NVMe",
   description: "Velocidade de leitura 3500MB/s e gravação 1800MB/s, interface PCIe 3.0 NVMe, TBW 160TB, design compacto.",
@@ -105,14 +115,14 @@ const products = [
   link: "https://s.shopee.com.br/AKQMkPmOKA"
 },
 {
-  id: 118,
+  id: 605,
   category: "Fontes",
   name: "Fonte TGT Enfield, 500W, ATX Bivolt, Preto",
   description: "500W, ATX 2.31, bivolt, ventoinha 120mm, baixo ruído, proteções OVP/UVP/SCP/OPP.",
   price: 188.22,
   image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdx0-m1il0rnfbg3sc6.webp",
   link: "https://s.shopee.com.br/6KuDzCpBT8"
-}
+},
 
 
 
@@ -585,7 +595,7 @@ const products = [
 // Categorias e lojas
 const categories = [
     "Teclados", "Mouses", "Kits Gamer", "Placas de Vídeo", "Coolers e Refrigeração",
-    "Gabinetes", "Placas-mãe", "Consoles", "Monitores", "Armazenamento", "Acessórios", "Fontes", "Memória RAM "
+    "Gabinetes", "Placas-mãe", "Consoles", "Monitores", "Armazenamento", "Acessórios", "Fontes", "Memória RAM", "Processadores"
 ];
 
 const stores = [
