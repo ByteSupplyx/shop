@@ -59,7 +59,7 @@ const products = [
   link: "https://s.shopee.com.br/AA6ij8RXET"
 },
  {
-  id: 111,
+  id: 211,
   name: "Teclado Mecânico Akko MonsGeek FUN60 60% Switch Magnético",
   description: "Teclado gamer compacto 60% com switches magnéticos, trigger ultra rápido de 0.01mm, polling rate de 8K, iluminação ARGB e design customizado HE/TMR. Ideal para performance máxima.",
   price: 173.75,
@@ -78,7 +78,7 @@ const products = [
 },
 
 {
-  id: 114,
+  id: 214,
   category: "Teclados",
   name: "AULA Hero68 HE 65% Hot-Swap Wired Magnetic Gaming Keyboard",
   description: "Teclado gamer 65% compacto, layout ANSI US, hot-swap, efeito hall 8kHz, RGB backlight, design magnético, ideal para jogos e digitação rápida.",
@@ -86,7 +86,6 @@ const products = [
   image: "https://ae-pic-a1.aliexpress-media.com/kf/Se6c08b6dc7ca43a6aef315edb981a7c8y.jpg",
   link: "https://s.click.aliexpress.com/e/_ol62hWn"
 },
-{
 {
   id: 602,
   category: "Processadores",
@@ -196,7 +195,7 @@ const products = [
   link: "https://s.shopee.com.br/3LGObqQ2Lf"
 },
 {
-  id: 111,
+  id: 211,
   name: "Mouse Gamer Mancer Lead 2 RGB 12400 DPI 7 Botões",
   description: "Mouse gamer Mancer Lead 2 com sensor PMW3327+HTS71, 12400 DPI ajustável, 7 botões, RGB configurável, switches Kailh 20M e construção ergonômica com apenas 70g.",
   price: 88.22,
@@ -289,7 +288,7 @@ const products = [
 
   // ARMAZENAMENTO
   {
-  id: 114,
+  id: 214,
   name: "SSD NVMe KOOTION X16Plus M.2 PCIe 4.0x4",
   description: "SSD interno KOOTION X16Plus M.2 2280 com interface PCIe 4.0x4, velocidades ultra-rápidas e compatibilidade com PS5, notebooks e PCs. Disponível em versões de 512GB, 1TB e 2TB para máxima performance.",
   price: 297.25,
@@ -299,13 +298,13 @@ const products = [
 },
   
    {
-     id: 964
-    nome: "Fonte TGT Enfield, 500W, ATX Bivolt, Preto",
-    preco: 188.22,
-    imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rdx0-m1il0rnfbg3sc6.webp",
+     id: 964,
+    name: "Fonte TGT Enfield, 500W, ATX Bivolt, Preto",
+    price: 188.22,
+    image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdx0-m1il0rnfbg3sc6.webp",
     link: "https://s.shopee.com.br/6KuDzCpBT8",
-    descricao: "500W, ATX 2.31, bivolt, ventoinha 120mm, baixo ruído, proteções OVP/UVP/SCP/OPP.",
-    categoria: "Fontes"
+    description: "500W, ATX 2.31, bivolt, ventoinha 120mm, baixo ruído, proteções OVP/UVP/SCP/OPP.",
+    category: "Fontes"
   },
 
 //Placas Maes
@@ -339,13 +338,13 @@ const products = [
 },
     
    {
-     id: 547
-    nome: "Memória DDR4 XPG Spectrix D35G, RGB, 8GB, 3200MHz, Black",
-    preco: 270.90,
-    imagem: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mccksufw7m5c29.webp",
+     id: 547,
+    name: "Memória DDR4 XPG Spectrix D35G, RGB, 8GB, 3200MHz, Black",
+    price: 270.90,
+    image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-mccksufw7m5c29.webp",
     link: "https://s.shopee.com.br/10ARDDNk3",
-    descricao: "DDR4, 8GB, 3200MHz, CL16, RGB endereçável, dissipador de calor baixo perfil, suporte Intel XMP 2.0.",
-    categoria: "Memória RAM"
+    description: "DDR4, 8GB, 3200MHz, CL16, RGB endereçável, dissipador de calor baixo perfil, suporte Intel XMP 2.0.",
+    category: "Memória RAM"
   },
   
 
