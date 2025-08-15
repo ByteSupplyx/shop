@@ -47,7 +47,17 @@ const products = [
   price: 90.22,
   image: "https://ae-pic-a1.aliexpress-media.com/kf/S5c0bd80f53774294ba4d4170edbb7cd3U.png",
   link: "https://s.click.aliexpress.com/e/_olD5YjD"
-},{
+},
+ {
+  id: 94,
+  category: "Teclados",
+  name: "AULA HERO 68HE Magnetic Switch Keyboard Rapid Trigger 8K",
+  description: "Teclado gamer magnético com Rapid Trigger e taxa de retorno de 8K para máxima resposta. RGB, conexão com fio, ideal para eSports.",
+  price: 239.68,
+  image: "https://ae-pic-a1.aliexpress-media.com/kf/Aec01aaecb6a6497db0bd1b9b0fe224772.png",
+  link: "https://s.click.aliexpress.com/e/_olpEJE5"
+},
+{
     id: 601,
     category: "Teclados",
     name: "AULA Hero68 HE 65% Hot-Swap Wired Magnetic Gaming Keyboard",
