@@ -57,15 +57,6 @@ const products = [
   image: "https://ae-pic-a1.aliexpress-media.com/kf/Aec01aaecb6a6497db0bd1b9b0fe224772.png",
   link: "https://s.click.aliexpress.com/e/_olpEJE5"
 },
-{
-    id: 601,
-    category: "Teclados",
-    name: "AULA Hero68 HE 65% Hot-Swap Wired Magnetic Gaming Keyboard",
-    description: "Teclado gamer 65% compacto, layout ANSI US, hot-swap, efeito hall 8kHz, RGB backlight, design magnético, ideal para jogos e digitação rápida.",
-    price: 238.51,
-    image: "https://ae-pic-a1.aliexpress-media.com/kf/Se6c08b6dc7ca43a6aef315edb981a7c8y.jpg",
-    link: "https://s.click.aliexpress.com/e/_ol62hWn"
-  },
   {
     id: 23,
     category: "Teclados",
